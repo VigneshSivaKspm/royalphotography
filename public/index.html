@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROYAL PHOTOGRAPHY - Premium Photo Studio</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid px-3">
+          <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+            <img src="assets/brand/logo.png" alt="Royal Photography Logo" class="rounded-full" style="height:48px;width:auto;object-fit:contain;">
+            <span>ROYAL PHOTOGRAPHY</span>
+          </a>
+      
+          <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="custom-hamburger-icon">
+              <span class="custom-hamburger-line"></span>
+              <span class="custom-hamburger-line"></span>
+              <span class="custom-hamburger-line"></span>
+            </span>
+          </button>
+      
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+              <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+              <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+              <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+
+    <!-- Modern Hero Section: Split with Video -->
+    <section class="hero-section" id="home">
+        <div class="hero-content-modern">
+            <h1>CAPTURING YOUR ROYAL MOMENTS</h1>
+            <p>We specialize in creating timeless, elegant photography that tells your unique story. Our professional team delivers exceptional quality with a personal touch.</p>
+            <div class="d-flex flex-wrap gap-3">
+                <a href="#contact" class="btn btn-royal">Book a Session</a>
+                <a href="#portfolio" class="btn btn-royal-outline">View Portfolio</a>
+                 </div>
+        </div>
+        <div class="hero-video-modern">
+            <video src="assets/brand/introvideo.mp4" autoplay muted loop playsinline></video>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade-right">
+                    <div class="about-img">
+                        <img src="assets/brand/sony.jpg" alt="Sony High-End Camera" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <h2 class="section-title">Our Story</h2>
+                    <p>Founded in 2018 with just a small team, ROYAL PHOTOGRAPHY began by doing short films, albums, and other creative shoots. Over time, we grew into one of the most preferred photography teams in the region.</p>
+                    <p>We always believe that a photo should speak for itself — it should tell a story, bring out emotions, and stay special forever. Our passionate and experienced team works with both skill and creativity to make every shot memorable.</p>
+                     <div class="row mt-4">
+                        <div class="col-md-6 mb-4">
+                            <div class="d-flex align-items-center">
+                                <div class="me-3">
+                                    <i class="fas fa-camera fa-2x about-feature-icon"></i>
+                                </div>
+                                <div>
+                                    <h5 class="mb-0">Professional Equipment</h5>
+                                    <p class="mb-0">State-of-the-art cameras and lenses</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <div class="d-flex align-items-center">
+                                <div class="me-3">
+                                    <i class="fas fa-award fa-2x about-feature-icon"></i>
+                                </div>
+                                <div>
+                                    <h5 class="mb-0">Award Winning</h5>
+                                    <p class="mb-0">Recognized industry excellence</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <div class="d-flex align-items-center">
+                                <div class="me-3">
+                                    <i class="fas fa-users fa-2x about-feature-icon"></i>
+                                </div>
+                                <div>
+                                    <h5 class="mb-0">Experienced Team</h5>
+                                    <p class="mb-0">10+ years of combined experience</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <div class="d-flex align-items-center">
+                                <div class="me-3">
+                                    <i class="fas fa-heart fa-2x about-feature-icon"></i>
+                                </div>
+                                <div>
+                                    <h5 class="mb-0">Client Focused</h5>
+                                    <p class="mb-0">1000+ satisfied clients</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section" id="services">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 class="section-title" data-aos="fade-up">Our Services</h2>
+                    <p class="mb-5" data-aos="fade-up" data-aos-delay="100">From timeless portraits to cinematic films, we offer a full spectrum of creative services to make your moments unforgettable. Explore our signature offerings below.</p>
+                </div>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="150">
+                    <div class="service-card h-100 text-center p-4 shadow-lg border-0 bg-white rounded-4">
+                        <div class="service-icon mb-3 text-danger display-4"><i class="fas fa-heart"></i></div>
+                        <h4 class="fw-bold mb-2">Wedding Shoots</h4>
+                        <p class="mb-3">Elegant wedding photography capturing every magical moment, from candid emotions to grand celebrations.</p>
+                        <span class="badge bg-danger">Most Loved</span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="350">
+                    <div class="service-card h-100 text-center p-4 shadow-lg border-0 bg-white rounded-4">
+                        <div class="service-icon mb-3 text-success display-4"><i class="fas fa-ring"></i></div>
+                        <h4 class="fw-bold mb-2">Pre-Wedding Concept</h4>
+                        <p class="mb-3">Unique pre-wedding concepts and storytelling sessions, tailored to your love story and personalities.</p>
+                        <span class="badge bg-success">Creative</span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="250">
+                    <div class="service-card h-100 text-center p-4 shadow-lg border-0 bg-white rounded-4">
+                        <div class="service-icon mb-3 text-info display-4"><i class="fas fa-book-open"></i></div>
+                        <h4 class="fw-bold mb-2">Albums & Shortfilms</h4>
+                        <p class="mb-3">Custom-designed albums and cinematic shortfilms to relive your memories in style and motion.</p>
+                        <span class="badge bg-info text-dark">Cinematic</span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-card h-100 text-center p-4 shadow-lg border-0 bg-white rounded-4">
+                        <div class="service-icon mb-3 text-primary display-4"><i class="fas fa-calendar-alt"></i></div>
+                        <h4 class="fw-bold mb-2">Event Shoots</h4>
+                        <p class="mb-3">Professional coverage for all events—corporate, private, or public—ensuring every detail is beautifully documented.</p>
+                        <span class="badge bg-primary">All Occasions</span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-card h-100 text-center p-4 shadow-lg border-0 bg-white rounded-4">
+                        <div class="service-icon mb-3 text-secondary display-4"><i class="fas fa-user-tie"></i></div>
+                        <h4 class="fw-bold mb-2">Fashion Modeling</h4>
+                        <p class="mb-3">High-end fashion and modeling shoots with creative direction, lighting, and post-production for standout portfolios.</p>
+                        <span class="badge bg-secondary">Trendy</span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="550">
+                    <div class="service-card h-100 text-center p-4 shadow-lg border-0 bg-white rounded-4">
+                        <div class="service-icon mb-3 text-pink display-4"><i class="fas fa-baby"></i></div>
+                        <h4 class="fw-bold mb-2">New Born Baby & Maternity</h4>
+                        <p class="mb-3">Gentle, artistic photography for newborns and maternity, capturing the beauty of new beginnings.</p>
+                        <span class="badge bg-pink text-dark" style="background:#f7c6d2;">Tender Moments</span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-card h-100 text-center p-4 shadow-lg border-0 bg-white rounded-4">
+                        <div class="service-icon mb-3 text-success display-4"><i class="fas fa-box-open"></i></div>
+                        <h4 class="fw-bold mb-2">Commercial & Product Photography</h4>
+                        <p class="mb-3">Professional product and commercial photography to elevate your brand and drive engagement.</p>
+                        <span class="badge bg-success">For Business</span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-card h-100 text-center p-4 shadow-lg border-0 bg-white rounded-4">
+                        <div class="service-icon mb-3 text-dark display-4"><i class="fas fa-film"></i></div>
+                        <h4 class="fw-bold mb-2">Film Making</h4>
+                        <p class="mb-3">Professional filmmaking services for weddings, events, and brands—script to screen, with cinematic quality.</p>
+                        <span class="badge bg-dark">Full Production</span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-card h-100 text-center p-4 shadow-lg border-0 bg-white rounded-4">
+                        <div class="service-icon mb-3 text-warning display-4"><i class="fas fa-user-circle"></i></div>
+                        <h4 class="fw-bold mb-2">Portrait Photography</h4>
+                        <p class="mb-3">Timeless, expressive portraits for individuals, families, and professionals, crafted with expert lighting and artistry.</p>
+                        <span class="badge bg-warning text-dark mb-2">Signature Style</span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="450">
+                    <div class="service-card h-100 text-center p-4 shadow-lg border-0 bg-white rounded-4">
+                        <div class="service-icon mb-3 text-warning display-4"><i class="fas fa-video"></i></div>
+                        <h4 class="fw-bold mb-2">Cinematography</h4>
+                        <p class="mb-3">Stunning cinematography for events, music videos, and creative projects, using the latest technology and techniques.</p>
+                        <span class="badge bg-warning text-dark">Epic Visuals</span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-card h-100 text-center p-4 shadow-lg border-0 bg-white rounded-4">
+                        <div class="service-icon mb-3 text-info display-4"><i class="fas fa-lightbulb"></i></div>
+                        <h4 class="fw-bold mb-2">Concept Shoots</h4>
+                        <p class="mb-3">Creative concept shoots for brands, individuals, and campaigns—turning ideas into striking visual stories.</p>
+                        <span class="badge bg-info text-dark">Unique Ideas</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Direct Call Section: Royal Stylish Professional -->
+    <section class="direct-call-section" id="call">
+        <div class="container">
+            <h2 class="direct-call-title" data-aos="fade-up">
+                <i class="fas fa-phone-alt direct-call-icon"></i>
+                Call Us Directly
+            </h2>
+            <p class="direct-call-desc" data-aos="fade-up" data-aos-delay="100">
+                Want to discuss your event, get a custom package, or have questions about our services?<br>
+                <b>Call us now</b> to talk with our team and get a personalized quote, exclusive offers, and expert advice for your special day.<br>
+                We love to help you make your moments truly <span style="color:var(--primary-color);font-weight:700;">royal</span>!
+            </p>
+            <a href="tel:+918593925936" class="direct-call-btn" data-aos="zoom-in" data-aos-delay="200">
+                <i class="fas fa-phone-alt direct-call-icon"></i>
+                Call Now: +91 85939 25936
+            </a>
+        </div>
+    </section>
+
+    <!-- Gear Section: Modern Professional Layout -->
+    <section class="gear-section" id="gear">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 class="section-title" data-aos="fade-up">Our Camera Gear</h2>
+                    <p class="mb-5" data-aos="fade-up" data-aos-delay="100">We invest in the best equipment to deliver world-class results. Explore the professional tools that power our creativity.</p>
+                </div>
+            </div>
+            <div class="gear-showcase">
+                <div class="gear-category" data-aos="fade-up" data-aos-delay="100">
+                    <span class="gear-label">Sony Bodies</span>
+                    <div class="gear-icon"><i class="fas fa-camera-retro"></i></div>
+                    <h4>Sony Camera Bodies</h4>
+                    <ul class="gear-list-modern">
+                        <li>Sony a7 m4</li>
+                        <li>Sony a7 m3</li>
+                        <li>Sony a7 s3</li>
+                        <li>Sony FX3</li>
+                    </ul>
+                </div>
+                <div class="gear-category" data-aos="fade-up" data-aos-delay="120">
+                    <span class="gear-label">Sony Lenses</span>
+                    <div class="gear-icon"><i class="fas fa-circle-notch"></i></div>
+                    <h4>Sony G Master Lenses</h4>
+                    <ul class="gear-list-modern">
+                        <li>Gmaster FE 85MM 1.4</li>
+                        <li>Gmaster FE 50MM 1.4</li>
+                        <li>Gmaster FE 35MM 1.4</li>
+                        <li>Gmaster FE 20MM 1.4</li>
+                    </ul>
+                </div>
+                <div class="gear-category" data-aos="fade-up" data-aos-delay="140">
+                    <span class="gear-label">Sigma Lenses</span>
+                    <div class="gear-icon"><i class="fas fa-dot-circle"></i></div>
+                    <h4>Sigma Art Lenses</h4>
+                    <ul class="gear-list-modern">
+                        <li>Sigma 85MM f/1.4</li>
+                        <li>Sigma 50MM f/1.4</li>
+                        <li>Sigma 35MM f/1.4</li>
+                        <li>Sigma 20MM f/1.4</li>
+                    </ul>
+                </div>
+                <div class="gear-category" data-aos="fade-up" data-aos-delay="160">
+                    <span class="gear-label">Canon Bodies</span>
+                    <div class="gear-icon"><i class="fas fa-camera"></i></div>
+                    <h4>Canon Camera Bodies</h4>
+                    <ul class="gear-list-modern">
+                        <li>Canon EOS R6 mark 2</li>
+                        <li>Canon EOS R6</li>
+                        <li>Canon EOS R</li>
+                        <li>Canon EOS R7</li>
+                    </ul>
+                </div>
+                <div class="gear-category" data-aos="fade-up" data-aos-delay="180">
+                    <span class="gear-label">Canon Lenses</span>
+                    <div class="gear-icon"><i class="fas fa-circle"></i></div>
+                    <h4>Canon Lenses</h4>
+                    <ul class="gear-list-modern">
+                        <li>EF 85MM USM 1.4</li>
+                        <li>EF 55MM USM 1.4</li>
+                        <li>EF 24-105MM 1.4</li>
+                        <li>EF 35MM USM 1.4</li>
+                        <li>EF 20MM USM 1.4</li>
+                    </ul>
+                </div>
+                <div class="gear-category" data-aos="fade-up" data-aos-delay="200">
+                    <span class="gear-label">Gimbals</span>
+                    <div class="gear-icon"><i class="fas fa-video"></i></div>
+                    <h4>Gimbals</h4>
+                    <ul class="gear-list-modern">
+                        <li>DJI RONIN RS4 PRO</li>
+                        <li>DJI RONIN RS4</li>
+                        <li>DJI RONIN RS3</li>
+                    </ul>
+                </div>
+                <div class="gear-category" data-aos="fade-up" data-aos-delay="220">
+                    <span class="gear-label">Drones</span>
+                    <div class="gear-icon"><i class="fas fa-helicopter"></i></div>
+                    <h4>Drones</h4>
+                    <ul class="gear-list-modern">
+                        <li>DJI Mavic Mini 4 pro</li>
+                        <li>DJI Mavic Mini 3</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Equipment Section: Modern & Professional -->
+    <section class="equipment-section" id="equipment">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 class="section-title" data-aos="fade-up">Our Professional Equipment</h2>
+                    <p class="mb-5" data-aos="fade-up" data-aos-delay="100">We use the latest technology and professional tools to ensure your event is captured with perfection and style.</p>
+                </div>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="equipment-card rounded-4 p-4 text-center bg-white modern-card">
+                        <div class="equipment-icon mb-3 text-primary display-4"><i class="fas fa-helicopter"></i></div>
+                        <h5 class="fw-bold mb-2">Drone</h5>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="120">
+                    <div class="equipment-card rounded-4 p-4 text-center bg-white modern-card">
+                        <div class="equipment-icon mb-3 text-info display-4"><i class="fas fa-globe"></i></div>
+                        <h5 class="fw-bold mb-2">360° Camera</h5>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="140">
+                    <div class="equipment-card rounded-4 p-4 text-center bg-white modern-card">
+                        <div class="equipment-icon mb-3 text-warning display-4"><i class="fas fa-lightbulb"></i></div>
+                        <h5 class="fw-bold mb-2">Focus lights & DJ Lights</h5>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="160">
+                    <div class="equipment-card rounded-4 p-4 text-center bg-white modern-card">
+                        <div class="equipment-icon mb-3 text-secondary display-4"><i class="fas fa-video"></i></div>
+                        <h5 class="fw-bold mb-2">Jib Crane Camera</h5>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="180">
+                    <div class="equipment-card rounded-4 p-4 text-center bg-white modern-card">
+                        <div class="equipment-icon mb-3 text-danger display-4"><i class="fas fa-tv"></i></div>
+                        <h5 class="fw-bold mb-2">LED Wall</h5>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="equipment-card rounded-4 p-4 text-center bg-white modern-card">
+                        <div class="equipment-icon mb-3 text-success display-4"><i class="fas fa-bolt"></i></div>
+                        <h5 class="fw-bold mb-2">Generator</h5>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="220">
+                    <div class="equipment-card rounded-4 p-4 text-center bg-white modern-card">
+                        <div class="equipment-icon mb-3 text-dark display-4"><i class="fas fa-broadcast-tower"></i></div>
+                        <h5 class="fw-bold mb-2">LIVE Stream Camera</h5>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="240">
+                    <div class="equipment-card rounded-4 p-4 text-center bg-white modern-card">
+                        <div class="equipment-icon mb-3 text-primary display-4"><i class="fas fa-volume-up"></i></div>
+                        <h5 class="fw-bold mb-2">Sound System</h5>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="260">
+                    <div class="equipment-card rounded-4 p-4 text-center bg-white modern-card">
+                        <div class="equipment-icon mb-3 text-pink display-4"><i class="fas fa-fire"></i></div>
+                        <h5 class="fw-bold mb-2">Popper & Fire s/m</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-5">
+                <div class="col-lg-8">
+                    <div class="equipment-extra-info text-center p-4 modern-extra-info">
+                        <h4 class="fw-bold mb-2" style="color:var(--primary-color);">Need more equipment? We’ve got you covered.</h4>
+                        <a href="tel:+918593925936" class="btn btn-call-royal ms-2" title="Call Royal Photography"><i class="fas fa-phone-alt"></i> Call Now</a>
+                        <p class="lead mb-0" style="color:var(--secondary-color);font-weight:500;">We offer a wide range of equipment for every need, with a special focus on filmmaking gear.<br>Whatever your purpose – from events to productions – we can arrange the right tools to get the job done.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Branches Section: Modern Landmark Highlight -->
+    <section class="branches-section" id="branches">
+        <div class="container">
+            <div class="branches-heading-wrap">
+                <h2 class="section-title branches-title" data-aos="fade-up">Our Branches</h2>
+                <p data-aos="fade-up" data-aos-delay="100" class="text-center">Visit us at our premium locations across Palakkad. Each branch is a landmark of royal service.</p>
+            </div>
+            <div class="branches-landmarks">
+                <div class="branch-landmark" data-aos="fade-up" data-aos-delay="200">
+                    <div class="landmark-pin">
+                        <span class="landmark-crown"><i class="fas fa-crown"></i></span>
+                        <span class="landmark-dot"></span>
+                    </div>
+                    <div class="landmark-info">
+                        <div class="landmark-main landmark-dominant">Parali</div>
+                        <div class="landmark-place"><i class="fas fa-map-marker-alt"></i> Palakkad</div>
+                    </div>
+                </div>
+                <div class="branch-landmark" data-aos="fade-up" data-aos-delay="200">
+                    <div class="landmark-pin">
+                        <span class="landmark-crown"><i class="fas fa-crown"></i></span>
+                        <span class="landmark-dot"></span>
+                    </div>
+                    <div class="landmark-info">
+                        <div class="landmark-main landmark-dominant">Kinassery</div>
+                        <div class="landmark-place"><i class="fas fa-map-marker-alt"></i> Palakkad</div>
+                    </div>
+                </div>
+                <div class="branch-landmark" data-aos="fade-up" data-aos-delay="300">
+                    <div class="landmark-pin">
+                        <span class="landmark-crown"><i class="fas fa-crown"></i></span>
+                        <span class="landmark-dot"></span>
+                    </div>
+                    <div class="landmark-info">
+                        <div class="landmark-main landmark-dominant">Mepparamb</div>
+                        <div class="landmark-place"><i class="fas fa-map-marker-alt"></i> Palakkad</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio-section" id="portfolio">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 class="section-title" data-aos="fade-up">Our Portfolio</h2>
+                    <p class="mb-5" data-aos="fade-up" data-aos-delay="100">Explore our collection of stunning photographs that showcase our style and expertise across different photography genres.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="portfolio-filter text-center" data-aos="fade-up">
+                        <button class="filter-btn active" data-filter="all">All</button>
+                        <button class="filter-btn" data-filter="wedding">Wedding</button>
+                        <button class="filter-btn" data-filter="portrait">Portrait</button>
+                        <button class="filter-btn" data-filter="commercial">Commercial</button>
+                        <button class="filter-btn" data-filter="event">Event</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row portfolio-grid">
+                <div class="col-md-6 col-lg-4 portfolio-item" data-category="wedding" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="portfolio-img bg-light d-flex align-items-center justify-content-center" style="height:270px; border-radius:14px; box-shadow:0 4px 24px rgba(44,62,80,0.09);">
+                        <span class="text-muted">Wedding Photography</span>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h4 class="text-white">Wedding Photography</h4>
+                        <p class="text-white">Elegant and timeless</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 portfolio-item" data-category="portrait" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="portfolio-img bg-light d-flex align-items-center justify-content-center" style="height:270px; border-radius:14px; box-shadow:0 4px 24px rgba(44,62,80,0.09);">
+                        <span class="text-muted">Portrait Session</span>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h4 class="text-white">Portrait Session</h4>
+                        <p class="text-white">Professional studio portrait</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 portfolio-item" data-category="commercial" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="portfolio-img bg-light d-flex align-items-center justify-content-center" style="height:270px; border-radius:14px; box-shadow:0 4px 24px rgba(44,62,80,0.09);">
+                        <span class="text-muted">Commercial Shoot</span>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h4 class="text-white">Commercial Shoot</h4>
+                        <p class="text-white">Product photography</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 portfolio-item" data-category="event" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="portfolio-img bg-light d-flex align-items-center justify-content-center" style="height:270px; border-radius:14px; box-shadow:0 4px 24px rgba(44,62,80,0.09);">
+                        <span class="text-muted">Corporate Event</span>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h4 class="text-white">Corporate Event</h4>
+                        <p class="text-white">Professional event coverage</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 portfolio-item" data-category="wedding" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="portfolio-img bg-light d-flex align-items-center justify-content-center" style="height:270px; border-radius:14px; box-shadow:0 4px 24px rgba(44,62,80,0.09);">
+                        <span class="text-muted">Wedding Couple</span>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h4 class="text-white">Wedding Couple</h4>
+                        <p class="text-white">Romantic outdoor session</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 portfolio-item" data-category="portrait" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="portfolio-img bg-light d-flex align-items-center justify-content-center" style="height:270px; border-radius:14px; box-shadow:0 4px 24px rgba(44,62,80,0.09);">
+                        <span class="text-muted">Fashion Portrait</span>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h4 class="text-white">Fashion Portrait</h4>
+                        <p class="text-white">Editorial style photography</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5" data-aos="fade-up">
+                <a href="#" class="btn btn-royal">View Full Portfolio</a>
+            </div>
+        </div>
+    </section>
+
+       
+
+ <!-- Packages - Modernized -->
+ <section class="wedding-packages-modern py-5">
+  <div class="container">
+    <div class="section-title mb-5">
+      <h2 class="accent-underline">Our Wedding Packages</h2>
+      <p class="text-muted">Choose the perfect package for your unforgettable day</p>
+    </div>
+    <div class="row g-4 justify-content-center">
+      <!-- Elite Package -->
+      <div class="col-md-4">
+        <div class="package-card-glass h-100">
+          <div class="package-icon bg-accent mb-3"><i class="fas fa-crown"></i></div>
+          <h4 class="text-accent fw-bold mb-1">Elite</h4>
+          <div class="package-price mb-3">₹55,000</div>
+          <ul class="package-features">
+            <li><i class="fas fa-check-circle"></i> Pre-wedding Coverage</li>
+            <li><i class="fas fa-check-circle"></i> Full Wedding Coverage</li>
+            <li><i class="fas fa-check-circle"></i> 2 Premium Albums (25 sheets each) or 1 Album with 50 sheets</li>
+            <li><i class="fas fa-check-circle"></i> Excess sheets payable</li>
+            <li><i class="fas fa-check-circle"></i> 4 Framed Photos (Couple & Family)</li>
+            <li><i class="fas fa-check-circle"></i> Pendrive with full funtion video, highlights, and photos</li>
+            <li><i class="fas fa-check-circle"></i> 2 Calendars with wedding photo</li>
+            <li><i class="fas fa-check-circle"></i> 2 Couple Mugs</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Gold Package -->
+      <div class="col-md-4">
+        <div class="package-card-glass h-100 gold">
+          <div class="package-icon bg-accent mb-3"><i class="fas fa-gem"></i></div>
+          <h4 class="text-accent fw-bold mb-1">Gold</h4>
+          <div class="package-price mb-3">₹75,000</div>
+          <ul class="package-features">
+            <li><i class="fas fa-check-circle"></i> Pre-wedding Coverage</li>
+            <li><i class="fas fa-check-circle"></i> Full Wedding Coverage</li>
+            <li><i class="fas fa-check-circle"></i> 2 Premium Albums (35 sheets each) or 1 Album with 70 sheets</li>
+            <li><i class="fas fa-check-circle"></i> Excess sheets payable</li>
+            <li><i class="fas fa-check-circle"></i> 4 Framed Photos (Couple & Family)</li>
+            <li><i class="fas fa-check-circle"></i> Pendrive with full funtion video, highlights, and photos</li>
+            <li><i class="fas fa-check-circle"></i> 2 Calendars with wedding photo</li>
+            <li><i class="fas fa-check-circle"></i> 2 Couple Mugs</li>
+            <li><i class="fas fa-check-circle"></i> Drone Shoots Included</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Premium Package -->
+      <div class="col-md-4">
+        <div class="package-card-glass h-100 premium">
+          <div class="package-icon bg-accent mb-3"><i class="fas fa-star"></i></div>
+          <h4 class="text-accent fw-bold mb-1">Premium</h4>
+          <div class="package-price mb-3">₹1,00,000</div>
+          <ul class="package-features">
+            <li><i class="fas fa-check-circle"></i> Pre-wedding Coverage</li>
+            <li><i class="fas fa-check-circle"></i> Full Wedding Coverage</li>
+            <li><i class="fas fa-check-circle"></i> 2 Premium Albums (50 sheets each) or 1 Album with 100 sheets</li>
+            <li><i class="fas fa-check-circle"></i> Excess sheets payable</li>
+            <li><i class="fas fa-check-circle"></i> 6 Framed Photos (Couple & Family)</li>
+            <li><i class="fas fa-check-circle"></i> Pendrive with full funtion video, highlights, and photos</li>
+            <li><i class="fas fa-check-circle"></i> 2 Calendars with wedding photo</li>
+            <li><i class="fas fa-check-circle"></i> 2 Couple Mugs</li>
+            <li><i class="fas fa-check-circle"></i> Drone Shoots Included</li>
+            <li><i class="fas fa-check-circle"></i> Special Gift from Royal Groups</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Combo Offer Card -->
+      <div class="col-md-12">
+        <div class="package-card-glass combo-offer-card mt-4 mb-2 p-4 text-center" style="max-width:700px;margin-left:auto;margin-right:auto;">
+          <div class="package-icon combo-icon mb-3"><i class="fas fa-handshake"></i></div>
+          <h4 class="fw-bold mb-2" style="color:var(--primary-color);">Combo Offer: Bride & Groom Book Together</h4>
+          <div class="combo-desc mb-3">If both bride and groom fix us for photography, enjoy our exclusive combo offer with variable photo sheets for each!</div>
+          <ul class="package-features d-flex flex-wrap justify-content-center gap-3 mb-3" style="list-style:none;padding:0;">
+            <li style="min-width:180px;"><i class="fas fa-male" style="color:var(--secondary-color);"></i> Groom Album: <b>30 Sheets</b></li>
+            <li style="min-width:180px;"><i class="fas fa-female" style="color:var(--primary-color);"></i> Bride Album: <b>50 Sheets</b></li>
+            <li style="min-width:180px;"><i class="fas fa-images" style="color:var(--about-green);"></i> Combined Family Album: <b>20 Sheets</b></li>
+            <li style="min-width:180px;"><i class="fas fa-gift" style="color:var(--about-gold);"></i> Special Royal Gift</li>
+            <li style="min-width:180px;"><i class="fas fa-calendar-check" style="color:var(--secondary-color);"></i> 2 Calendars (Bride & Groom)</li>
+            <li style="min-width:180px;"><i class="fas fa-mug-hot" style="color:var(--primary-color);"></i> 2 Custom Mugs</li>
+            <li style="min-width:180px;"><i class="fas fa-video" style="color:var(--about-green-dark);"></i> Full Event Video & Highlights</li>
+          </ul>
+          <div class="combo-note text-muted mt-2" style="font-size:1.05rem;">Sheets can be customized as per your needs. Contact us <a href="tel:+918593925936" class="btn btn-call-royal ms-2" title="Call Royal Photography"><i class="fas fa-phone-alt"></i> Call Now</a> for more combo options!</div>
+        </div>
+      </div>
+    </div>
+    <!-- Custom Note -->
+    <div class="text-center mt-5">
+      <p class="fw-semibold text-muted">
+        Looking for something unique? <span class="text-accent">More customized high-end packages are available.</span><br>
+        We also offer fully customizable packages to suit both <strong>low and high budgets</strong>.
+      </p>
+    </div>
+    
+  </div>
+</section>
+  
+
+    <!-- Pricing Section -->
+    <section class="pricing-section" id="pricing">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="section-title" data-aos="fade-up">Our Pricing Philosophy</h2>
+                        <p class="mb-5" data-aos="fade-up" data-aos-delay="100">We believe everyone deserves beautiful photography—no matter the event or budget. Every package is custom, every story unique.</p>
+                    </div>
+                </div>
+                <div class="custom-message text-center shadow-lg p-4 rounded-4" style="background:linear-gradient(90deg,#fffbe6 60%,#d1ac5f18 100%);border-left:6px solid var(--primary-color);font-size:1.2rem;">
+                    <span class="badge bg-warning text-dark mb-2" style="font-size:1.1rem;padding:.7em 1.5em;border-radius:1.5em;letter-spacing:.04em;">Custom For Every Budget</span><br>
+                    <strong style="color:var(--secondary-color);font-size:1.3rem;">No fixed plans. No limits. Just your story.</strong><br>
+                    <span style="color:#444;">Tell us your event and budget—Royal Photography will craft the perfect package for you. <span style="color:var(--primary-color);font-weight:600;">Excellence for everyone.</span></span>
+                </div>
+                <div class="row justify-content-center align-items-center" style="min-height:220px;">
+                    <div class="col-lg-10 text-center" data-aos="fade-up" data-aos-delay="200">
+                        <h3 style="font-weight:700; color:var(--primary-color); margin-bottom:1.2rem;">Your Moments. Your Budget. Your Way.</h3>
+                        <p style="font-size:1.18rem; max-width:700px; margin:0 auto 1.2rem auto; color:#222;">
+                            From grand weddings to intimate portraits, we create a package just for you. <br>
+                            <span style="color:var(--accent-color); font-weight:600;">Every function. Every budget. Every smile.</span>
+                        </p>
+                        <a href="#contact" class="btn btn-royal btn-lg mt-2">Get Your Custom Quote</a>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+                        <p class="mb-5" data-aos="fade-up" data-aos-delay="100">Let’s create something beautiful together. Share your event and budget—our team will respond within 24 hours.</p>
+                    </div>
+                </div>
+                <div class="row align-items-stretch gy-5 gx-4">
+                    <!-- Custom Service Message -->
+                    <div class="col-12 mb-4">
+                        <div class="custom-message text-center shadow-lg p-4 rounded-4" style="background:linear-gradient(90deg,#fffbe6 60%,#d1ac5f18 100%);border-left:6px solid var(--primary-color);font-size:1.1rem;">
+                            <span class="badge bg-warning text-dark mb-2" style="font-size:1.05rem;padding:.6em 1.2em;border-radius:1.5em;letter-spacing:.04em;">All Budgets Welcome</span><br>
+                            <strong style="color:var(--secondary-color);font-size:1.15rem;">Custom packages for every event and every budget.</strong>
+                        </div>
+                    </div>
+                    <!-- Contact Info Cards (now colorful, light backgrounds, even on mobile) -->
+                    <div class="col-lg-4 d-flex flex-column gap-4 justify-content-between order-lg-1 order-2">
+                        <div class="d-flex flex-lg-column flex-row gap-4 h-100">
+                            <div class="contact-info-card flex-fill text-center align-items-center justify-content-center d-flex flex-column p-3 shadow-sm rounded-4">
+                                <div class="contact-icon email mb-2"><i class="fas fa-envelope"></i></div>
+                                <h5 class="mb-1">Email</h5>
+                                <a href="mailto:royalgroupphotography@gmail.com" class="text-dark text-decoration-none small">royalgroupphotography@gmail.com</a>
+                                <a href="mailto:royalfilmproduction7@gmail.com" class="text-dark text-decoration-none small">royalfilmproduction7@gmail.com</a>
+                            </div>
+                            <div class="contact-info-card flex-fill text-center align-items-center justify-content-center d-flex flex-column p-3 shadow-sm rounded-4">
+                                <div class="contact-icon phone mb-2"><i class="fas fa-phone-alt"></i></div>
+                                <h5 class="mb-1">Call</h5>
+                                <a href="tel:7306607847" class="text-dark text-decoration-none small">7306607847</a>
+                            </div>
+                            <div class="contact-info-card flex-fill text-center align-items-center justify-content-center d-flex flex-column p-3 shadow-sm rounded-4">
+                                <div class="contact-icon whatsapp mb-2"><i class="fab fa-whatsapp"></i></div>
+                                <h5 class="mb-1">WhatsApp</h5>
+                                <a href="https://wa.me/8593925936" class="text-dark text-decoration-none small">8593925936</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modern Custom Contact Form (now visually dominant, free budget input, all services) -->
+                    <div class="col-lg-8 order-lg-2 order-1">
+                        <div class="contact-form bg-white p-5 shadow-xl rounded-4 position-relative border border-3 border-warning" style="border-top:6px solid var(--primary-color); z-index:2; box-shadow:0 8px 40px rgba(209,172,95,0.18),0 2px 8px rgba(14,39,41,0.08);">
+                            <span class="badge bg-success position-absolute top-0 end-0 mt-3 me-3" style="font-size:1.08rem;padding:.7em 1.5em;border-radius:1.5em;letter-spacing:.04em;">Custom Service</span>
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-6 mb-4">
+                                        <label for="name" class="form-label">Your Name</label>
+                                        <input type="text" class="form-control" id="name" required>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <label for="email" class="form-label">Email Address</label>
+                                        <input type="email" class="form-control" id="email" required>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 mb-4">
+                                        <label for="eventType" class="form-label">Event Type</label>
+                                        <select class="form-select" id="eventType" required>
+                                            <option selected disabled>Select event type</option>
+                                            <option>Wedding</option>
+                                            <option>Pre-Wedding Concept</option>
+                                            <option>Albums & Shortfilms</option>
+                                            <option>Event</option>
+                                            <option>Fashion Modeling</option>
+                                            <option>Newborn & Maternity</option>
+                                            <option>Commercial & Product Photography</option>
+                                            <option>Film Making</option>
+                                            <option>Portrait</option>
+                                            <option>Photo Editing</option>
+                                            <option>Cinematography</option>
+                                            <option>Concept Shoots</option>
+                                            <option>Other</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 mb-4">
+                                        <label for="weddingPackage" class="form-label">Select Wedding Package</label>
+                                        <select class="form-select" id="weddingPackage" name="weddingPackage" required onchange="document.getElementById('customBudgetWrap').style.display = this.value === 'Custom' ? 'block' : 'none';">
+                                            <option selected disabled value="">Choose...</option>
+                                            <option value="Elite">Elite</option>
+                                            <option value="Gold">Gold</option>
+                                            <option value="Premium">Premium</option>
+                                            <option value="Custom">Custom</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6 mb-4" id="customBudgetWrap" style="display:none;">
+                                        <label for="customBudget" class="form-label">Custom Plan Budget (min ₹20,000)</label>
+                                        <input type="number" class="form-control" id="customBudget" name="customBudget" min="20000" placeholder="Enter your budget" />
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 mb-4">
+                                        <label for="location" class="form-label">Your Location (Place)</label>
+                                        <input type="text" class="form-control" id="location" name="location" required placeholder="Eg: Palakkad" />
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <label for="side" class="form-label">You are from</label>
+                                        <select class="form-select" id="side" name="side" required>
+                                            <option selected disabled value="">Choose...</option>
+                                            <option value="Groom">Groom's Side</option>
+                                            <option value="Bride">Bride's Side</option>
+                                            <option value="Both">Both</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 mb-4">
+                                        <label for="eventDate" class="form-label">Event Date</label>
+                                        <input type="date" class="form-control" id="eventDate" name="eventDate" required />
+                                    </div>
+                                </div>
+                                <div class="mb-4">
+                                    <label for="subject" class="form-label">Subject</label>
+                                    <input type="text" class="form-control" id="subject" required>
+                                </div>
+                                <div class="mb-4">
+                                    <label for="message" class="form-label">Your Message</label>
+                                    <textarea class="form-control" id="message" rows="5" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-royal btn-lg w-100">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+ 
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <div class="footer-logo">ROYAL PHOTOGRAPHY</div>
+                    <p class="text-white mb-4">Capturing life's most precious moments with elegance and artistry. Professional photography services for all occasions.</p>
+                    <div class="footer-instagram text-white mt-4">
+                        <span class="fw-semibold">Follow us on</span>
+                        <a href="https://www.instagram.com/_royal_.photography_/?igsh=MWY4dThxcXRoaDVudA%3D%3D#" target="_blank" class="ms-2" style="color:#D1AC5F; font-size:1.7rem; vertical-align:middle;">
+                            <i class="fab fa-instagram"></i> Instagram
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-5 mb-md-0">
+                    <div class="footer-links">
+                        <h5>Quick Links</h5>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#pricing">Pricing</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-5 mb-md-0">
+                    <div class="footer-links">
+                        <h5>Services</h5>
+                        <ul>
+                            <li><a href="#">Wedding Photography</a></li>
+                            <li><a href="#">Portrait Sessions</a></li>
+                            <li><a href="#">Commercial Photography</a></li>
+                            <li><a href="#">Newborn & Maternity</a></li>
+                            <li><a href="#">Event Photography</a></li>
+                            <li><a href="#">Photo Editing</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="copyright text-center">
+                        <p class="text-white mb-0">&copy; 2023 ROYAL PHOTOGRAPHY</p>
+                        <p class="mb-0" style="font-size:0.98rem; color:#FFD700;">
+                            Developed by <a href="https://legendaryone.in" class="text-decoration-none" style="color:#FFD700;" target="_blank">Legendary One</a>
+                          </p>
+                          
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/918593925936" class="floating-whatsapp" target="_blank" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <!-- Back to Top Button -->
+    <button class="floating-top" id="backToTop" aria-label="Back to Top" onclick="window.scrollTo({top:0,behavior:'smooth'});">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+    
+    
+</body>
+</html>
