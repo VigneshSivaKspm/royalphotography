@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://www.royalphotography.com/sitemap.xml
+Sitemap: https://www.royalphotography.org/sitemap.xml
